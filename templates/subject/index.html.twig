@@ -1,0 +1,51 @@
+{% extends 'panel.html.twig' %}
+
+{% block title %}Przedmioty{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="container pt-4">
+
+{{ form_start(form) }}
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nazwisko i imię</th>
+      <th scope="col">&nbsp &nbsp Oceny</th>
+      <th scope="col">Średnia ocen</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% set h = 1 %}
+  {% for r in rating %}
+    <tr>
+      <th scope="row">{{ h }}</th>
+      <td>{{ form_label(attribute(form, r.id)) }}</td>
+      <td style="width: 72%;">{{ form_widget(attribute(form, r.id), {'attr': {'class': 'form-control transparent-input'}}) }}</td>
+      <td></td>
+    </tr>
+    {% set h = h+1 %}
+    {% endfor%}
+  </tbody>
+</table>
+
+{{ form_end(form) }}
+</div>
+<style>
+    input.transparent-input{
+       background-color:rgba(0,0,0,0) !important;
+       border:none !important;
+       box-shadow:none !important;
+    }
+    table th, table td{
+   display: table-cell;
+   vertical-align: middle;
+}
+</style>
+{% endblock %}

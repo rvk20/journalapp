@@ -1,0 +1,317 @@
+{% extends 'lesson/index.html.twig' %}
+
+
+{% block title %}Plany lekcji{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+<div class="container pt-4">
+<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="ice-cream">
+    <option value="">Wybierz klasę  …</option>
+    {% for element in group %}
+    <option value="{{element.id}}">{{element.name}}</option>
+    {% endfor %} 
+  </select>
+
+ 
+</br>
+
+<form method="POST">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Poniedziałek</th>
+      <th scope="col">Wtorek</th>
+      <th scope="col">Środa</th>
+      <th scope="col">Czwartek</th>
+      <th scope="col">Piątek</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><select name="s11" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[0].name}}">{{plan[0].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+      <td><select name="s21" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option  value="{{plan[8].name}}">{{plan[8].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+      <td><select name="s31" name="s14" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[16].name}}">{{plan[16].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s41" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option  value="{{plan[24].name}}">{{plan[24].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s51" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[32].name}}">{{plan[32].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><select name="s12" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[1].name}}">{{plan[1].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s22" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[9].name}}">{{plan[9].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s32" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[17].name}}">{{plan[17].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s42" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[25].name}}">{{plan[25].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s52" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[33].name}}">{{plan[33].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><select name="s13" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[2].name}}">{{plan[2].name}}  …</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s23" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[10].name}}">{{plan[10].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s33" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[18].name}}">{{plan[18].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s43" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[26].name}}">{{plan[26].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s53" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[34].name}}">{{plan[34].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><select name="s14" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[3].name}}">{{plan[3].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s24" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[11].name}}">{{plan[11].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s34" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[19].name}}">{{plan[19].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s44" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[27].name}}">{{plan[27].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s54" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[35].name}}">{{plan[35].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><select name="s15" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[4].name}}">{{plan[4].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s25" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[12].name}}">{{plan[12].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s35" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[20].name}}">{{plan[20].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s45" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[28].name}}">{{plan[28].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s55" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[36].name}}">{{plan[36].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><select name="s16" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[5].name}}">{{plan[5].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s26" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[13].name}}">{{plan[13].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s36" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[21].name}}">{{plan[21].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s46" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[29].name}}">{{plan[29].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s56" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[37].name}}">{{plan[37].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td><select name="s17" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[6].name}}">{{plan[6].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s27" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[14].name}}">{{plan[14].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s37" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[22].name}}">{{plan[22].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s47" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[30].name}}">{{plan[30].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s57" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[38].name}}">{{plan[38].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td><select name="s18" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[7].name}}">{{plan[7].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s28" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[15].name}}">{{plan[15].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s38" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[23].name}}">{{plan[23].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s48" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[31].name}}">{{plan[31].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+  <td><select name="s58" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="plan">
+    <option value="{{plan[39].name}}">{{plan[39].name}}</option>
+    {% for s in subjects %}
+    <option value="{{s.name}}">{{s.name}}</option>
+    {% endfor %} 
+  </select></td>
+    </tr>
+  </tbody>
+</table>
+<button class="btn btn-info btn-lg btn-block" type="submit" name='submit'>Aktualizuj
+    </button>
+</form>
+</br>
+</br>
+</div>
+<script>
+const selectElement = document.querySelector('select[name="ice-cream"]');
+
+selectElement.addEventListener('change', (event) => {
+  location.href = `/lesson/${event.target.value}`;
+});
+
+</script>
+  
+{% endblock %}

@@ -1,0 +1,229 @@
+{% extends 'panel.html.twig' %}
+
+{% block title %}Rozkład zajęć{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="container pt-4">
+
+<div style="display: block;
+  width: 30%;
+  border: 0;
+  float:left;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  ">
+  
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><h1 class="display-6">Poniedziałek</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+  {% set h = 1 %}
+    {% for e in day1 %}
+    <tr>
+      <th ><p class="h4">
+      {{ h }}.
+      {% if e.name != "Brak zajęć" %}
+      {{e.name}}
+      {% endif %}
+      {% set h = h+1 %}
+      </p></th>
+    </tr>
+    {% endfor %}
+   
+  </tbody>
+</table>
+
+  </div>
+
+  <div style="display: block;
+  width: 1%;
+  float:left;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  ">
+  </div>
+
+  <div style="display: block;
+  width: 30%;
+  border: 0;
+  float: left;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  ">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><h1 class="display-6">Wtorek</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% set h = 1 %}
+    {% for e in day2 %}
+    <tr>
+      <th><p class="h4">
+      {{ h }}.
+      {% if e.name != "Brak zajęć" %}
+      {{e.name}}
+      {% endif %}
+      {% set h = h+1 %}
+      </p></th>
+    </tr>
+    {% endfor %}
+   
+  </tbody>
+</table>
+  </div>
+    <div style="display: block;
+  width: 1%;
+  float:left;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  ">
+  </div>
+  <div style="display: block;
+  width: 30%;
+  border: 0;
+  float: left;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  ">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><h1 class="display-6">Środa</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% set h = 1 %}
+    {% for e in day3 %}
+    <tr>
+      <th><p class="h4">
+      {{ h }}.
+      {% if e.name != "Brak zajęć" %}
+      {{e.name}}
+      {% endif %}
+      {% set h = h+1 %}
+      </p></th>
+    </tr>
+    {% endfor %}
+   
+  </tbody>
+</table>
+  </div>
+  
+    </br></br></br></br></br></br></br></br></br></br></br></br>
+     <div style="display: block;
+  width: 18%;
+  float:left;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  ">
+  </div>
+
+  <div style="display: block;
+  width: 30%;
+  border: 0;
+  float: left;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  ">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><h1 class="display-6">Czwartek</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% set h = 1 %}
+    {% for e in day4 %}
+    <tr>
+      <th ><p class="h4">
+      {{ h }}.
+      {% if e.name != "Brak zajęć" %}
+      {{e.name}}
+      {% endif %}
+      {% set h = h+1 %}
+      </p></th>
+    </tr>
+    {% endfor %}
+   
+  </tbody>
+</table>
+  </div>
+  <div style="display: block;
+  width: 1%;
+  float:left;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  ">
+  </div>
+  <div style="display: block;
+  width: 30%;
+  border: 0;
+  float: left;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  ">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><h1 class="display-6">Piątek</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% set h = 1 %}
+    {% for e in day5 %}
+    <tr>
+      <th><p class="h4">
+      {{ h }}.
+      {% if e.name != "Brak zajęć" %}
+      {{e.name}}
+      {% endif %}
+      {% set h = h+1 %}
+      </p></th>
+    </tr>
+    {% endfor %}
+   
+  </tbody>
+</table>
+  </div>
+
+</div>
+
+{% endblock %}

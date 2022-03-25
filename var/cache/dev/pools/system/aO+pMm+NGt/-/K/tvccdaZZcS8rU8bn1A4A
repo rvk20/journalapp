@@ -1,0 +1,3 @@
+<?php //App%255CController%255CMyCustomProblemNormalizer%2523supportsNormalization
+
+return [PHP_INT_MAX, []];

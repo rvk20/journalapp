@@ -1,0 +1,9 @@
+{% extends 'panel.html.twig' %}
+
+ {% block linkElement %}
+ <a
+           href="{{ item.uri }}"
+           class="list-group-item list-group-item-action py-2 ripple"
+           ><i class="fas fa-money-bill fa-fw me-3"></i><span>{{ block('label') }}</span></a
+          >
+{% endblock %}
