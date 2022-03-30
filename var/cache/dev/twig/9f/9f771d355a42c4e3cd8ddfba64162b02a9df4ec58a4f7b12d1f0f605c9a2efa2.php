@@ -89,26 +89,27 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 <div class=\"container pt-4\">
 <select class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"ice-cream\">
     <option value=\"\">Wybierz klasę  …</option>
     ";
-        // line 14
+        // line 15
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["group"]) || array_key_exists("group", $context) ? $context["group"] : (function () { throw new RuntimeError('Variable "group" does not exist.', 14, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["group"]) || array_key_exists("group", $context) ? $context["group"] : (function () { throw new RuntimeError('Variable "group" does not exist.', 15, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["element"]) {
-            // line 15
+            // line 16
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["element"], "id", [], "any", false, false, false, 15), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["element"], "id", [], "any", false, false, false, 16), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["element"], "name", [], "any", false, false, false, 15), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["element"], "name", [], "any", false, false, false, 16), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['element'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 16
+        // line 17
         echo " 
   </select>
 
@@ -132,132 +133,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">1</th>
       <td><select name=\"s11\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 38
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 38, $this->source); })()), 0, [], "array", false, false, false, 38), "name", [], "any", false, false, false, 38), "html", null, true);
+        // line 39
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 39, $this->source); })()), 0, [], "array", false, false, false, 39), "name", [], "any", false, false, false, 39), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 38, $this->source); })()), 0, [], "array", false, false, false, 38), "name", [], "any", false, false, false, 38), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 39, $this->source); })()), 0, [], "array", false, false, false, 39), "name", [], "any", false, false, false, 39), "html", null, true);
         echo "</option>
     ";
-        // line 39
+        // line 40
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 39, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 40, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 40
+            // line 41
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 40), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 41), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 40), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 41), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 41
+        // line 42
         echo " 
   </select></td>
       <td><select name=\"s21\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option  value=\"";
-        // line 44
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 44, $this->source); })()), 8, [], "array", false, false, false, 44), "name", [], "any", false, false, false, 44), "html", null, true);
+        // line 45
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 45, $this->source); })()), 8, [], "array", false, false, false, 45), "name", [], "any", false, false, false, 45), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 44, $this->source); })()), 8, [], "array", false, false, false, 44), "name", [], "any", false, false, false, 44), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 45, $this->source); })()), 8, [], "array", false, false, false, 45), "name", [], "any", false, false, false, 45), "html", null, true);
         echo "</option>
     ";
-        // line 45
+        // line 46
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 45, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 46, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 46
+            // line 47
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 46), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 47), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 46), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 47), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 47
+        // line 48
         echo " 
   </select></td>
       <td><select name=\"s31\" name=\"s14\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 50
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 50, $this->source); })()), 16, [], "array", false, false, false, 50), "name", [], "any", false, false, false, 50), "html", null, true);
+        // line 51
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 51, $this->source); })()), 16, [], "array", false, false, false, 51), "name", [], "any", false, false, false, 51), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 50, $this->source); })()), 16, [], "array", false, false, false, 50), "name", [], "any", false, false, false, 50), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 51, $this->source); })()), 16, [], "array", false, false, false, 51), "name", [], "any", false, false, false, 51), "html", null, true);
         echo "</option>
     ";
-        // line 51
+        // line 52
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 51, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 52, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 52
+            // line 53
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 52), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 53), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 52), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 53), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 53
+        // line 54
         echo " 
   </select></td>
   <td><select name=\"s41\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option  value=\"";
-        // line 56
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 56, $this->source); })()), 24, [], "array", false, false, false, 56), "name", [], "any", false, false, false, 56), "html", null, true);
+        // line 57
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 57, $this->source); })()), 24, [], "array", false, false, false, 57), "name", [], "any", false, false, false, 57), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 56, $this->source); })()), 24, [], "array", false, false, false, 56), "name", [], "any", false, false, false, 56), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 57, $this->source); })()), 24, [], "array", false, false, false, 57), "name", [], "any", false, false, false, 57), "html", null, true);
         echo "</option>
     ";
-        // line 57
+        // line 58
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 57, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 58, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 58
+            // line 59
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 58), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 59), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 58), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 59), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 59
+        // line 60
         echo " 
   </select></td>
   <td><select name=\"s51\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 62
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 62, $this->source); })()), 32, [], "array", false, false, false, 62), "name", [], "any", false, false, false, 62), "html", null, true);
+        // line 63
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 63, $this->source); })()), 32, [], "array", false, false, false, 63), "name", [], "any", false, false, false, 63), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 62, $this->source); })()), 32, [], "array", false, false, false, 62), "name", [], "any", false, false, false, 62), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 63, $this->source); })()), 32, [], "array", false, false, false, 63), "name", [], "any", false, false, false, 63), "html", null, true);
         echo "</option>
     ";
-        // line 63
+        // line 64
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 63, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 64, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 64
+            // line 65
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 64), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 65), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 64), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 65), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 65
+        // line 66
         echo " 
   </select></td>
   
@@ -266,132 +267,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">2</th>
       <td><select name=\"s12\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 72
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 72, $this->source); })()), 1, [], "array", false, false, false, 72), "name", [], "any", false, false, false, 72), "html", null, true);
+        // line 73
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 73, $this->source); })()), 1, [], "array", false, false, false, 73), "name", [], "any", false, false, false, 73), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 72, $this->source); })()), 1, [], "array", false, false, false, 72), "name", [], "any", false, false, false, 72), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 73, $this->source); })()), 1, [], "array", false, false, false, 73), "name", [], "any", false, false, false, 73), "html", null, true);
         echo "</option>
     ";
-        // line 73
+        // line 74
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 73, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 74, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 74
+            // line 75
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 74), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 75), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 74), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 75), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 75
+        // line 76
         echo " 
   </select></td>
   <td><select name=\"s22\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 78
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 78, $this->source); })()), 9, [], "array", false, false, false, 78), "name", [], "any", false, false, false, 78), "html", null, true);
+        // line 79
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 79, $this->source); })()), 9, [], "array", false, false, false, 79), "name", [], "any", false, false, false, 79), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 78, $this->source); })()), 9, [], "array", false, false, false, 78), "name", [], "any", false, false, false, 78), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 79, $this->source); })()), 9, [], "array", false, false, false, 79), "name", [], "any", false, false, false, 79), "html", null, true);
         echo "</option>
     ";
-        // line 79
+        // line 80
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 79, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 80, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 80
+            // line 81
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 80), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 81), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 80), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 81), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 81
+        // line 82
         echo " 
   </select></td>
   <td><select name=\"s32\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 84
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 84, $this->source); })()), 17, [], "array", false, false, false, 84), "name", [], "any", false, false, false, 84), "html", null, true);
+        // line 85
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 85, $this->source); })()), 17, [], "array", false, false, false, 85), "name", [], "any", false, false, false, 85), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 84, $this->source); })()), 17, [], "array", false, false, false, 84), "name", [], "any", false, false, false, 84), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 85, $this->source); })()), 17, [], "array", false, false, false, 85), "name", [], "any", false, false, false, 85), "html", null, true);
         echo "</option>
     ";
-        // line 85
+        // line 86
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 85, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 86, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 86
+            // line 87
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 86), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 87), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 86), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 87), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 87
+        // line 88
         echo " 
   </select></td>
   <td><select name=\"s42\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 90
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 90, $this->source); })()), 25, [], "array", false, false, false, 90), "name", [], "any", false, false, false, 90), "html", null, true);
+        // line 91
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 91, $this->source); })()), 25, [], "array", false, false, false, 91), "name", [], "any", false, false, false, 91), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 90, $this->source); })()), 25, [], "array", false, false, false, 90), "name", [], "any", false, false, false, 90), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 91, $this->source); })()), 25, [], "array", false, false, false, 91), "name", [], "any", false, false, false, 91), "html", null, true);
         echo "</option>
     ";
-        // line 91
+        // line 92
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 91, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 92, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 92
+            // line 93
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 92), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 93), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 92), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 93), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 93
+        // line 94
         echo " 
   </select></td>
   <td><select name=\"s52\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 96
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 96, $this->source); })()), 33, [], "array", false, false, false, 96), "name", [], "any", false, false, false, 96), "html", null, true);
+        // line 97
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 97, $this->source); })()), 33, [], "array", false, false, false, 97), "name", [], "any", false, false, false, 97), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 96, $this->source); })()), 33, [], "array", false, false, false, 96), "name", [], "any", false, false, false, 96), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 97, $this->source); })()), 33, [], "array", false, false, false, 97), "name", [], "any", false, false, false, 97), "html", null, true);
         echo "</option>
     ";
-        // line 97
+        // line 98
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 97, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 98, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 98
+            // line 99
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 98), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 99), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 98), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 99), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 99
+        // line 100
         echo " 
   </select></td>
     </tr>
@@ -399,132 +400,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">3</th>
       <td><select name=\"s13\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 105
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 105, $this->source); })()), 2, [], "array", false, false, false, 105), "name", [], "any", false, false, false, 105), "html", null, true);
+        // line 106
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 106, $this->source); })()), 2, [], "array", false, false, false, 106), "name", [], "any", false, false, false, 106), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 105, $this->source); })()), 2, [], "array", false, false, false, 105), "name", [], "any", false, false, false, 105), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 106, $this->source); })()), 2, [], "array", false, false, false, 106), "name", [], "any", false, false, false, 106), "html", null, true);
         echo "  …</option>
     ";
-        // line 106
+        // line 107
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 106, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 107, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 107
+            // line 108
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 107), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 108), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 107), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 108), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 108
+        // line 109
         echo " 
   </select></td>
   <td><select name=\"s23\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 111
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 111, $this->source); })()), 10, [], "array", false, false, false, 111), "name", [], "any", false, false, false, 111), "html", null, true);
+        // line 112
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 112, $this->source); })()), 10, [], "array", false, false, false, 112), "name", [], "any", false, false, false, 112), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 111, $this->source); })()), 10, [], "array", false, false, false, 111), "name", [], "any", false, false, false, 111), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 112, $this->source); })()), 10, [], "array", false, false, false, 112), "name", [], "any", false, false, false, 112), "html", null, true);
         echo "</option>
     ";
-        // line 112
+        // line 113
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 112, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 113, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 113
+            // line 114
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 113), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 114), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 113), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 114), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 114
+        // line 115
         echo " 
   </select></td>
   <td><select name=\"s33\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 117
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 117, $this->source); })()), 18, [], "array", false, false, false, 117), "name", [], "any", false, false, false, 117), "html", null, true);
+        // line 118
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 118, $this->source); })()), 18, [], "array", false, false, false, 118), "name", [], "any", false, false, false, 118), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 117, $this->source); })()), 18, [], "array", false, false, false, 117), "name", [], "any", false, false, false, 117), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 118, $this->source); })()), 18, [], "array", false, false, false, 118), "name", [], "any", false, false, false, 118), "html", null, true);
         echo "</option>
     ";
-        // line 118
+        // line 119
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 118, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 119, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 119
+            // line 120
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 119), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 120), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 119), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 120), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 120
+        // line 121
         echo " 
   </select></td>
   <td><select name=\"s43\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 123
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 123, $this->source); })()), 26, [], "array", false, false, false, 123), "name", [], "any", false, false, false, 123), "html", null, true);
+        // line 124
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 124, $this->source); })()), 26, [], "array", false, false, false, 124), "name", [], "any", false, false, false, 124), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 123, $this->source); })()), 26, [], "array", false, false, false, 123), "name", [], "any", false, false, false, 123), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 124, $this->source); })()), 26, [], "array", false, false, false, 124), "name", [], "any", false, false, false, 124), "html", null, true);
         echo "</option>
     ";
-        // line 124
+        // line 125
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 124, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 125, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 125
+            // line 126
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 125), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 126), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 125), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 126), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 126
+        // line 127
         echo " 
   </select></td>
   <td><select name=\"s53\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 129
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 129, $this->source); })()), 34, [], "array", false, false, false, 129), "name", [], "any", false, false, false, 129), "html", null, true);
+        // line 130
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 130, $this->source); })()), 34, [], "array", false, false, false, 130), "name", [], "any", false, false, false, 130), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 129, $this->source); })()), 34, [], "array", false, false, false, 129), "name", [], "any", false, false, false, 129), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 130, $this->source); })()), 34, [], "array", false, false, false, 130), "name", [], "any", false, false, false, 130), "html", null, true);
         echo "</option>
     ";
-        // line 130
+        // line 131
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 130, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 131, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 131
+            // line 132
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 131), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 132), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 131), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 132), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 132
+        // line 133
         echo " 
   </select></td>
     </tr>
@@ -532,132 +533,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">4</th>
       <td><select name=\"s14\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 138
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 138, $this->source); })()), 3, [], "array", false, false, false, 138), "name", [], "any", false, false, false, 138), "html", null, true);
+        // line 139
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 139, $this->source); })()), 3, [], "array", false, false, false, 139), "name", [], "any", false, false, false, 139), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 138, $this->source); })()), 3, [], "array", false, false, false, 138), "name", [], "any", false, false, false, 138), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 139, $this->source); })()), 3, [], "array", false, false, false, 139), "name", [], "any", false, false, false, 139), "html", null, true);
         echo "</option>
     ";
-        // line 139
+        // line 140
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 139, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 140, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 140
+            // line 141
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 140), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 141), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 140), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 141), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 141
+        // line 142
         echo " 
   </select></td>
   <td><select name=\"s24\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 144
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 144, $this->source); })()), 11, [], "array", false, false, false, 144), "name", [], "any", false, false, false, 144), "html", null, true);
+        // line 145
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 145, $this->source); })()), 11, [], "array", false, false, false, 145), "name", [], "any", false, false, false, 145), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 144, $this->source); })()), 11, [], "array", false, false, false, 144), "name", [], "any", false, false, false, 144), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 145, $this->source); })()), 11, [], "array", false, false, false, 145), "name", [], "any", false, false, false, 145), "html", null, true);
         echo "</option>
     ";
-        // line 145
+        // line 146
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 145, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 146, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 146
+            // line 147
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 146), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 147), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 146), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 147), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 147
+        // line 148
         echo " 
   </select></td>
   <td><select name=\"s34\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 150
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 150, $this->source); })()), 19, [], "array", false, false, false, 150), "name", [], "any", false, false, false, 150), "html", null, true);
+        // line 151
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 151, $this->source); })()), 19, [], "array", false, false, false, 151), "name", [], "any", false, false, false, 151), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 150, $this->source); })()), 19, [], "array", false, false, false, 150), "name", [], "any", false, false, false, 150), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 151, $this->source); })()), 19, [], "array", false, false, false, 151), "name", [], "any", false, false, false, 151), "html", null, true);
         echo "</option>
     ";
-        // line 151
+        // line 152
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 151, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 152, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 152
+            // line 153
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 152), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 153), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 152), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 153), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 153
+        // line 154
         echo " 
   </select></td>
   <td><select name=\"s44\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 156
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 156, $this->source); })()), 27, [], "array", false, false, false, 156), "name", [], "any", false, false, false, 156), "html", null, true);
+        // line 157
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 157, $this->source); })()), 27, [], "array", false, false, false, 157), "name", [], "any", false, false, false, 157), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 156, $this->source); })()), 27, [], "array", false, false, false, 156), "name", [], "any", false, false, false, 156), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 157, $this->source); })()), 27, [], "array", false, false, false, 157), "name", [], "any", false, false, false, 157), "html", null, true);
         echo "</option>
     ";
-        // line 157
+        // line 158
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 157, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 158, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 158
+            // line 159
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 158), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 159), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 158), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 159), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 159
+        // line 160
         echo " 
   </select></td>
   <td><select name=\"s54\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 162
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 162, $this->source); })()), 35, [], "array", false, false, false, 162), "name", [], "any", false, false, false, 162), "html", null, true);
+        // line 163
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 163, $this->source); })()), 35, [], "array", false, false, false, 163), "name", [], "any", false, false, false, 163), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 162, $this->source); })()), 35, [], "array", false, false, false, 162), "name", [], "any", false, false, false, 162), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 163, $this->source); })()), 35, [], "array", false, false, false, 163), "name", [], "any", false, false, false, 163), "html", null, true);
         echo "</option>
     ";
-        // line 163
+        // line 164
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 163, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 164, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 164
+            // line 165
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 164), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 165), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 164), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 165), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 165
+        // line 166
         echo " 
   </select></td>
     </tr>
@@ -665,132 +666,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">5</th>
       <td><select name=\"s15\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 171
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 171, $this->source); })()), 4, [], "array", false, false, false, 171), "name", [], "any", false, false, false, 171), "html", null, true);
+        // line 172
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 172, $this->source); })()), 4, [], "array", false, false, false, 172), "name", [], "any", false, false, false, 172), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 171, $this->source); })()), 4, [], "array", false, false, false, 171), "name", [], "any", false, false, false, 171), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 172, $this->source); })()), 4, [], "array", false, false, false, 172), "name", [], "any", false, false, false, 172), "html", null, true);
         echo "</option>
     ";
-        // line 172
+        // line 173
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 172, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 173, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 173
+            // line 174
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 173), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 174), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 173), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 174), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 174
+        // line 175
         echo " 
   </select></td>
   <td><select name=\"s25\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 177
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 177, $this->source); })()), 12, [], "array", false, false, false, 177), "name", [], "any", false, false, false, 177), "html", null, true);
+        // line 178
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 178, $this->source); })()), 12, [], "array", false, false, false, 178), "name", [], "any", false, false, false, 178), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 177, $this->source); })()), 12, [], "array", false, false, false, 177), "name", [], "any", false, false, false, 177), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 178, $this->source); })()), 12, [], "array", false, false, false, 178), "name", [], "any", false, false, false, 178), "html", null, true);
         echo "</option>
     ";
-        // line 178
+        // line 179
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 178, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 179, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 179
+            // line 180
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 179), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 180), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 179), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 180), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 180
+        // line 181
         echo " 
   </select></td>
   <td><select name=\"s35\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 183
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 183, $this->source); })()), 20, [], "array", false, false, false, 183), "name", [], "any", false, false, false, 183), "html", null, true);
+        // line 184
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 184, $this->source); })()), 20, [], "array", false, false, false, 184), "name", [], "any", false, false, false, 184), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 183, $this->source); })()), 20, [], "array", false, false, false, 183), "name", [], "any", false, false, false, 183), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 184, $this->source); })()), 20, [], "array", false, false, false, 184), "name", [], "any", false, false, false, 184), "html", null, true);
         echo "</option>
     ";
-        // line 184
+        // line 185
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 184, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 185, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 185
+            // line 186
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 185), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 186), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 185), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 186), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 186
+        // line 187
         echo " 
   </select></td>
   <td><select name=\"s45\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 189
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 189, $this->source); })()), 28, [], "array", false, false, false, 189), "name", [], "any", false, false, false, 189), "html", null, true);
+        // line 190
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 190, $this->source); })()), 28, [], "array", false, false, false, 190), "name", [], "any", false, false, false, 190), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 189, $this->source); })()), 28, [], "array", false, false, false, 189), "name", [], "any", false, false, false, 189), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 190, $this->source); })()), 28, [], "array", false, false, false, 190), "name", [], "any", false, false, false, 190), "html", null, true);
         echo "</option>
     ";
-        // line 190
+        // line 191
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 190, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 191, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 191
+            // line 192
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 191), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 192), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 191), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 192), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 192
+        // line 193
         echo " 
   </select></td>
   <td><select name=\"s55\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 195
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 195, $this->source); })()), 36, [], "array", false, false, false, 195), "name", [], "any", false, false, false, 195), "html", null, true);
+        // line 196
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 196, $this->source); })()), 36, [], "array", false, false, false, 196), "name", [], "any", false, false, false, 196), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 195, $this->source); })()), 36, [], "array", false, false, false, 195), "name", [], "any", false, false, false, 195), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 196, $this->source); })()), 36, [], "array", false, false, false, 196), "name", [], "any", false, false, false, 196), "html", null, true);
         echo "</option>
     ";
-        // line 196
+        // line 197
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 196, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 197, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 197
+            // line 198
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 197), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 198), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 197), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 198), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 198
+        // line 199
         echo " 
   </select></td>
     </tr>
@@ -798,132 +799,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">6</th>
       <td><select name=\"s16\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 204
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 204, $this->source); })()), 5, [], "array", false, false, false, 204), "name", [], "any", false, false, false, 204), "html", null, true);
+        // line 205
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 205, $this->source); })()), 5, [], "array", false, false, false, 205), "name", [], "any", false, false, false, 205), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 204, $this->source); })()), 5, [], "array", false, false, false, 204), "name", [], "any", false, false, false, 204), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 205, $this->source); })()), 5, [], "array", false, false, false, 205), "name", [], "any", false, false, false, 205), "html", null, true);
         echo "</option>
     ";
-        // line 205
+        // line 206
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 205, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 206, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 206
+            // line 207
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 206), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 207), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 206), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 207), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 207
+        // line 208
         echo " 
   </select></td>
   <td><select name=\"s26\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 210
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 210, $this->source); })()), 13, [], "array", false, false, false, 210), "name", [], "any", false, false, false, 210), "html", null, true);
+        // line 211
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 211, $this->source); })()), 13, [], "array", false, false, false, 211), "name", [], "any", false, false, false, 211), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 210, $this->source); })()), 13, [], "array", false, false, false, 210), "name", [], "any", false, false, false, 210), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 211, $this->source); })()), 13, [], "array", false, false, false, 211), "name", [], "any", false, false, false, 211), "html", null, true);
         echo "</option>
     ";
-        // line 211
+        // line 212
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 211, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 212, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 212
+            // line 213
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 212), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 213), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 212), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 213), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 213
+        // line 214
         echo " 
   </select></td>
   <td><select name=\"s36\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 216
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 216, $this->source); })()), 21, [], "array", false, false, false, 216), "name", [], "any", false, false, false, 216), "html", null, true);
+        // line 217
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 217, $this->source); })()), 21, [], "array", false, false, false, 217), "name", [], "any", false, false, false, 217), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 216, $this->source); })()), 21, [], "array", false, false, false, 216), "name", [], "any", false, false, false, 216), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 217, $this->source); })()), 21, [], "array", false, false, false, 217), "name", [], "any", false, false, false, 217), "html", null, true);
         echo "</option>
     ";
-        // line 217
+        // line 218
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 217, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 218, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 218
+            // line 219
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 218), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 219), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 218), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 219), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 219
+        // line 220
         echo " 
   </select></td>
   <td><select name=\"s46\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 222
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 222, $this->source); })()), 29, [], "array", false, false, false, 222), "name", [], "any", false, false, false, 222), "html", null, true);
+        // line 223
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 223, $this->source); })()), 29, [], "array", false, false, false, 223), "name", [], "any", false, false, false, 223), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 222, $this->source); })()), 29, [], "array", false, false, false, 222), "name", [], "any", false, false, false, 222), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 223, $this->source); })()), 29, [], "array", false, false, false, 223), "name", [], "any", false, false, false, 223), "html", null, true);
         echo "</option>
     ";
-        // line 223
+        // line 224
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 223, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 224, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 224
+            // line 225
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 224), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 225), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 224), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 225), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 225
+        // line 226
         echo " 
   </select></td>
   <td><select name=\"s56\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 228
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 228, $this->source); })()), 37, [], "array", false, false, false, 228), "name", [], "any", false, false, false, 228), "html", null, true);
+        // line 229
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 229, $this->source); })()), 37, [], "array", false, false, false, 229), "name", [], "any", false, false, false, 229), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 228, $this->source); })()), 37, [], "array", false, false, false, 228), "name", [], "any", false, false, false, 228), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 229, $this->source); })()), 37, [], "array", false, false, false, 229), "name", [], "any", false, false, false, 229), "html", null, true);
         echo "</option>
     ";
-        // line 229
+        // line 230
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 229, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 230, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 230
+            // line 231
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 230), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 231), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 230), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 231), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 231
+        // line 232
         echo " 
   </select></td>
     </tr>
@@ -931,132 +932,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">7</th>
       <td><select name=\"s17\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 237
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 237, $this->source); })()), 6, [], "array", false, false, false, 237), "name", [], "any", false, false, false, 237), "html", null, true);
+        // line 238
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 238, $this->source); })()), 6, [], "array", false, false, false, 238), "name", [], "any", false, false, false, 238), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 237, $this->source); })()), 6, [], "array", false, false, false, 237), "name", [], "any", false, false, false, 237), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 238, $this->source); })()), 6, [], "array", false, false, false, 238), "name", [], "any", false, false, false, 238), "html", null, true);
         echo "</option>
     ";
-        // line 238
+        // line 239
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 238, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 239, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 239
+            // line 240
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 239), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 240), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 239), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 240), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 240
+        // line 241
         echo " 
   </select></td>
   <td><select name=\"s27\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 243
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 243, $this->source); })()), 14, [], "array", false, false, false, 243), "name", [], "any", false, false, false, 243), "html", null, true);
+        // line 244
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 244, $this->source); })()), 14, [], "array", false, false, false, 244), "name", [], "any", false, false, false, 244), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 243, $this->source); })()), 14, [], "array", false, false, false, 243), "name", [], "any", false, false, false, 243), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 244, $this->source); })()), 14, [], "array", false, false, false, 244), "name", [], "any", false, false, false, 244), "html", null, true);
         echo "</option>
     ";
-        // line 244
+        // line 245
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 244, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 245, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 245
+            // line 246
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 245), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 246), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 245), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 246), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 246
+        // line 247
         echo " 
   </select></td>
   <td><select name=\"s37\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 249
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 249, $this->source); })()), 22, [], "array", false, false, false, 249), "name", [], "any", false, false, false, 249), "html", null, true);
+        // line 250
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 250, $this->source); })()), 22, [], "array", false, false, false, 250), "name", [], "any", false, false, false, 250), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 249, $this->source); })()), 22, [], "array", false, false, false, 249), "name", [], "any", false, false, false, 249), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 250, $this->source); })()), 22, [], "array", false, false, false, 250), "name", [], "any", false, false, false, 250), "html", null, true);
         echo "</option>
     ";
-        // line 250
+        // line 251
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 250, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 251, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 251
+            // line 252
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 251), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 252), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 251), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 252), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 252
+        // line 253
         echo " 
   </select></td>
   <td><select name=\"s47\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 255
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 255, $this->source); })()), 30, [], "array", false, false, false, 255), "name", [], "any", false, false, false, 255), "html", null, true);
+        // line 256
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 256, $this->source); })()), 30, [], "array", false, false, false, 256), "name", [], "any", false, false, false, 256), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 255, $this->source); })()), 30, [], "array", false, false, false, 255), "name", [], "any", false, false, false, 255), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 256, $this->source); })()), 30, [], "array", false, false, false, 256), "name", [], "any", false, false, false, 256), "html", null, true);
         echo "</option>
     ";
-        // line 256
+        // line 257
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 256, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 257, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 257
+            // line 258
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 257), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 258), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 257), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 258), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 258
+        // line 259
         echo " 
   </select></td>
   <td><select name=\"s57\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 261
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 261, $this->source); })()), 38, [], "array", false, false, false, 261), "name", [], "any", false, false, false, 261), "html", null, true);
+        // line 262
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 262, $this->source); })()), 38, [], "array", false, false, false, 262), "name", [], "any", false, false, false, 262), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 261, $this->source); })()), 38, [], "array", false, false, false, 261), "name", [], "any", false, false, false, 261), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 262, $this->source); })()), 38, [], "array", false, false, false, 262), "name", [], "any", false, false, false, 262), "html", null, true);
         echo "</option>
     ";
-        // line 262
+        // line 263
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 262, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 263, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 263
+            // line 264
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 263), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 264), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 263), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 264), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 264
+        // line 265
         echo " 
   </select></td>
     </tr>
@@ -1064,132 +1065,132 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
       <th scope=\"row\">8</th>
       <td><select name=\"s18\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 270
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 270, $this->source); })()), 7, [], "array", false, false, false, 270), "name", [], "any", false, false, false, 270), "html", null, true);
+        // line 271
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 271, $this->source); })()), 7, [], "array", false, false, false, 271), "name", [], "any", false, false, false, 271), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 270, $this->source); })()), 7, [], "array", false, false, false, 270), "name", [], "any", false, false, false, 270), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 271, $this->source); })()), 7, [], "array", false, false, false, 271), "name", [], "any", false, false, false, 271), "html", null, true);
         echo "</option>
     ";
-        // line 271
+        // line 272
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 271, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 272, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 272
+            // line 273
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 272), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 273), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 272), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 273), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 273
+        // line 274
         echo " 
   </select></td>
   <td><select name=\"s28\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 276
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 276, $this->source); })()), 15, [], "array", false, false, false, 276), "name", [], "any", false, false, false, 276), "html", null, true);
+        // line 277
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 277, $this->source); })()), 15, [], "array", false, false, false, 277), "name", [], "any", false, false, false, 277), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 276, $this->source); })()), 15, [], "array", false, false, false, 276), "name", [], "any", false, false, false, 276), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 277, $this->source); })()), 15, [], "array", false, false, false, 277), "name", [], "any", false, false, false, 277), "html", null, true);
         echo "</option>
     ";
-        // line 277
+        // line 278
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 277, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 278, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 278
+            // line 279
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 278), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 279), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 278), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 279), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 279
+        // line 280
         echo " 
   </select></td>
   <td><select name=\"s38\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 282
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 282, $this->source); })()), 23, [], "array", false, false, false, 282), "name", [], "any", false, false, false, 282), "html", null, true);
+        // line 283
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 283, $this->source); })()), 23, [], "array", false, false, false, 283), "name", [], "any", false, false, false, 283), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 282, $this->source); })()), 23, [], "array", false, false, false, 282), "name", [], "any", false, false, false, 282), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 283, $this->source); })()), 23, [], "array", false, false, false, 283), "name", [], "any", false, false, false, 283), "html", null, true);
         echo "</option>
     ";
-        // line 283
+        // line 284
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 283, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 284, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 284
+            // line 285
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 284), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 285), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 284), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 285), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 285
+        // line 286
         echo " 
   </select></td>
   <td><select name=\"s48\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 288
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 288, $this->source); })()), 31, [], "array", false, false, false, 288), "name", [], "any", false, false, false, 288), "html", null, true);
+        // line 289
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 289, $this->source); })()), 31, [], "array", false, false, false, 289), "name", [], "any", false, false, false, 289), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 288, $this->source); })()), 31, [], "array", false, false, false, 288), "name", [], "any", false, false, false, 288), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 289, $this->source); })()), 31, [], "array", false, false, false, 289), "name", [], "any", false, false, false, 289), "html", null, true);
         echo "</option>
     ";
-        // line 289
+        // line 290
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 289, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 290, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 290
+            // line 291
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 290), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 291), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 290), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 291), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 291
+        // line 292
         echo " 
   </select></td>
   <td><select name=\"s58\" class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"plan\">
     <option value=\"";
-        // line 294
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 294, $this->source); })()), 39, [], "array", false, false, false, 294), "name", [], "any", false, false, false, 294), "html", null, true);
+        // line 295
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 295, $this->source); })()), 39, [], "array", false, false, false, 295), "name", [], "any", false, false, false, 295), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 294, $this->source); })()), 39, [], "array", false, false, false, 294), "name", [], "any", false, false, false, 294), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["plan"]) || array_key_exists("plan", $context) ? $context["plan"] : (function () { throw new RuntimeError('Variable "plan" does not exist.', 295, $this->source); })()), 39, [], "array", false, false, false, 295), "name", [], "any", false, false, false, 295), "html", null, true);
         echo "</option>
     ";
-        // line 295
+        // line 296
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 295, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["subjects"]) || array_key_exists("subjects", $context) ? $context["subjects"] : (function () { throw new RuntimeError('Variable "subjects" does not exist.', 296, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["s"]) {
-            // line 296
+            // line 297
             echo "    <option value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 296), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 297), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 296), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["s"], "name", [], "any", false, false, false, 297), "html", null, true);
             echo "</option>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['s'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 297
+        // line 298
         echo " 
   </select></td>
     </tr>
@@ -1201,6 +1202,7 @@ class __TwigTemplate_413cf3b8eb50cc8032bf4b40fca5f9766278420b68ed5778429ee3cc80e
 </br>
 </br>
 </div>
+</main>
 <script>
 const selectElement = document.querySelector('select[name=\"ice-cream\"]');
 
@@ -1231,7 +1233,7 @@ selectElement.addEventListener('change', (event) => {
 
     public function getDebugInfo()
     {
-        return array (  1193 => 297,  1182 => 296,  1178 => 295,  1172 => 294,  1167 => 291,  1156 => 290,  1152 => 289,  1146 => 288,  1141 => 285,  1130 => 284,  1126 => 283,  1120 => 282,  1115 => 279,  1104 => 278,  1100 => 277,  1094 => 276,  1089 => 273,  1078 => 272,  1074 => 271,  1068 => 270,  1060 => 264,  1049 => 263,  1045 => 262,  1039 => 261,  1034 => 258,  1023 => 257,  1019 => 256,  1013 => 255,  1008 => 252,  997 => 251,  993 => 250,  987 => 249,  982 => 246,  971 => 245,  967 => 244,  961 => 243,  956 => 240,  945 => 239,  941 => 238,  935 => 237,  927 => 231,  916 => 230,  912 => 229,  906 => 228,  901 => 225,  890 => 224,  886 => 223,  880 => 222,  875 => 219,  864 => 218,  860 => 217,  854 => 216,  849 => 213,  838 => 212,  834 => 211,  828 => 210,  823 => 207,  812 => 206,  808 => 205,  802 => 204,  794 => 198,  783 => 197,  779 => 196,  773 => 195,  768 => 192,  757 => 191,  753 => 190,  747 => 189,  742 => 186,  731 => 185,  727 => 184,  721 => 183,  716 => 180,  705 => 179,  701 => 178,  695 => 177,  690 => 174,  679 => 173,  675 => 172,  669 => 171,  661 => 165,  650 => 164,  646 => 163,  640 => 162,  635 => 159,  624 => 158,  620 => 157,  614 => 156,  609 => 153,  598 => 152,  594 => 151,  588 => 150,  583 => 147,  572 => 146,  568 => 145,  562 => 144,  557 => 141,  546 => 140,  542 => 139,  536 => 138,  528 => 132,  517 => 131,  513 => 130,  507 => 129,  502 => 126,  491 => 125,  487 => 124,  481 => 123,  476 => 120,  465 => 119,  461 => 118,  455 => 117,  450 => 114,  439 => 113,  435 => 112,  429 => 111,  424 => 108,  413 => 107,  409 => 106,  403 => 105,  395 => 99,  384 => 98,  380 => 97,  374 => 96,  369 => 93,  358 => 92,  354 => 91,  348 => 90,  343 => 87,  332 => 86,  328 => 85,  322 => 84,  317 => 81,  306 => 80,  302 => 79,  296 => 78,  291 => 75,  280 => 74,  276 => 73,  270 => 72,  261 => 65,  250 => 64,  246 => 63,  240 => 62,  235 => 59,  224 => 58,  220 => 57,  214 => 56,  209 => 53,  198 => 52,  194 => 51,  188 => 50,  183 => 47,  172 => 46,  168 => 45,  162 => 44,  157 => 41,  146 => 40,  142 => 39,  136 => 38,  112 => 16,  101 => 15,  97 => 14,  88 => 7,  78 => 6,  59 => 4,  36 => 1,);
+        return array (  1194 => 298,  1183 => 297,  1179 => 296,  1173 => 295,  1168 => 292,  1157 => 291,  1153 => 290,  1147 => 289,  1142 => 286,  1131 => 285,  1127 => 284,  1121 => 283,  1116 => 280,  1105 => 279,  1101 => 278,  1095 => 277,  1090 => 274,  1079 => 273,  1075 => 272,  1069 => 271,  1061 => 265,  1050 => 264,  1046 => 263,  1040 => 262,  1035 => 259,  1024 => 258,  1020 => 257,  1014 => 256,  1009 => 253,  998 => 252,  994 => 251,  988 => 250,  983 => 247,  972 => 246,  968 => 245,  962 => 244,  957 => 241,  946 => 240,  942 => 239,  936 => 238,  928 => 232,  917 => 231,  913 => 230,  907 => 229,  902 => 226,  891 => 225,  887 => 224,  881 => 223,  876 => 220,  865 => 219,  861 => 218,  855 => 217,  850 => 214,  839 => 213,  835 => 212,  829 => 211,  824 => 208,  813 => 207,  809 => 206,  803 => 205,  795 => 199,  784 => 198,  780 => 197,  774 => 196,  769 => 193,  758 => 192,  754 => 191,  748 => 190,  743 => 187,  732 => 186,  728 => 185,  722 => 184,  717 => 181,  706 => 180,  702 => 179,  696 => 178,  691 => 175,  680 => 174,  676 => 173,  670 => 172,  662 => 166,  651 => 165,  647 => 164,  641 => 163,  636 => 160,  625 => 159,  621 => 158,  615 => 157,  610 => 154,  599 => 153,  595 => 152,  589 => 151,  584 => 148,  573 => 147,  569 => 146,  563 => 145,  558 => 142,  547 => 141,  543 => 140,  537 => 139,  529 => 133,  518 => 132,  514 => 131,  508 => 130,  503 => 127,  492 => 126,  488 => 125,  482 => 124,  477 => 121,  466 => 120,  462 => 119,  456 => 118,  451 => 115,  440 => 114,  436 => 113,  430 => 112,  425 => 109,  414 => 108,  410 => 107,  404 => 106,  396 => 100,  385 => 99,  381 => 98,  375 => 97,  370 => 94,  359 => 93,  355 => 92,  349 => 91,  344 => 88,  333 => 87,  329 => 86,  323 => 85,  318 => 82,  307 => 81,  303 => 80,  297 => 79,  292 => 76,  281 => 75,  277 => 74,  271 => 73,  262 => 66,  251 => 65,  247 => 64,  241 => 63,  236 => 60,  225 => 59,  221 => 58,  215 => 57,  210 => 54,  199 => 53,  195 => 52,  189 => 51,  184 => 48,  173 => 47,  169 => 46,  163 => 45,  158 => 42,  147 => 41,  143 => 40,  137 => 39,  113 => 17,  102 => 16,  98 => 15,  88 => 7,  78 => 6,  59 => 4,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -1246,6 +1248,7 @@ selectElement.addEventListener('change', (event) => {
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 <div class=\"container pt-4\">
 <select class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"ice-cream\">
     <option value=\"\">Wybierz klasę  …</option>
@@ -1543,6 +1546,7 @@ selectElement.addEventListener('change', (event) => {
 </br>
 </br>
 </div>
+</main>
 <script>
 const selectElement = document.querySelector('select[name=\"ice-cream\"]');
 

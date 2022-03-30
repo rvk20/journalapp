@@ -89,7 +89,7 @@ class __TwigTemplate_ddc3f529677702461103b9bfaa8f480e8f5cff20fbfd9c8e0e94de249a6
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-
+<main style=\"margin-top: 58px\">
 
   <div class=\"container pt-4\">
      <select class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"ice-cream\">
@@ -118,7 +118,7 @@ class __TwigTemplate_ddc3f529677702461103b9bfaa8f480e8f5cff20fbfd9c8e0e94de249a6
   
 
 
- 
+ </main>
 
 <script>
 const selectElement = document.querySelector('select[name=\"ice-cream\"]');
@@ -163,7 +163,7 @@ selectElement.addEventListener('change', (event) => {
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-
+<main style=\"margin-top: 58px\">
 
   <div class=\"container pt-4\">
      <select class=\"form-select form-select-lg mb-3\" aria-label=\".form-select-lg example\"aria-label=\".form-select-lg example\" name=\"ice-cream\">
@@ -177,7 +177,7 @@ selectElement.addEventListener('change', (event) => {
   
 
 
- 
+ </main>
 
 <script>
 const selectElement = document.querySelector('select[name=\"ice-cream\"]');
