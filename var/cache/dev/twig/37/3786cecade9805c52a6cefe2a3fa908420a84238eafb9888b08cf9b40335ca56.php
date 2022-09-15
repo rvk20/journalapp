@@ -147,23 +147,15 @@ class __TwigTemplate_01fb99a0e2b92fa2e907748d0739cfc98737c1abeaa21a8b1bcc60941b2
     <input type=\"password\" name=\"password\" id=\"form2Example28\" class=\"form-control form-control-lg\" autocomplete=\"current-password\" required>
     <label class=\"form-label\" for=\"form2Example28\">Hasło</label>
     </div>
-
     <input type=\"hidden\" name=\"_csrf_token\"
            value=\"";
-        // line 60
+        // line 59
         echo twig_escape_filter($this->env, $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderCsrfToken("authenticate"), "html", null, true);
         echo "\"
-    >
-
-
-    
-        
-
+    >   
        ";
-        // line 72
-        echo "    
-
-    <div class=\"pt-1 mb-4\">
+        // line 66
+        echo "    <div class=\"pt-1 mb-4\">
     <button class=\"btn btn-info btn-lg btn-block\" type=\"submit\">
         Zaloguj się
     </button>
@@ -209,7 +201,7 @@ class __TwigTemplate_01fb99a0e2b92fa2e907748d0739cfc98737c1abeaa21a8b1bcc60941b2
 
     public function getDebugInfo()
     {
-        return array (  164 => 72,  154 => 60,  142 => 51,  136 => 47,  130 => 45,  128 => 44,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  158 => 66,  153 => 59,  142 => 51,  136 => 47,  130 => 45,  128 => 44,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -271,22 +263,14 @@ class __TwigTemplate_01fb99a0e2b92fa2e907748d0739cfc98737c1abeaa21a8b1bcc60941b2
     <input type=\"password\" name=\"password\" id=\"form2Example28\" class=\"form-control form-control-lg\" autocomplete=\"current-password\" required>
     <label class=\"form-label\" for=\"form2Example28\">Hasło</label>
     </div>
-
     <input type=\"hidden\" name=\"_csrf_token\"
            value=\"{{ csrf_token('authenticate') }}\"
-    >
-
-
-    
-        
-
+    >   
        {# <div class=\"checkbox mb-3\">
             <label>
                 <input type=\"checkbox\" name=\"_remember_me\"> Zapamiętaj
             </label>
         </div>#}
-    
-
     <div class=\"pt-1 mb-4\">
     <button class=\"btn btn-info btn-lg btn-block\" type=\"submit\">
         Zaloguj się

@@ -39,8 +39,6 @@ class RegisterController extends AbstractController
         $group = $this->group;
         $g = new StudentGroup();
 
-        
-                        
 
         $form = $this->createFormBuilder()
             ->add('ranga', ChoiceType::class, [

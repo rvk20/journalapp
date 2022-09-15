@@ -77,7 +77,8 @@ class LessonController extends AbstractController
         return $this->render('lesson/plan.html.twig', [
             'group' => $this->group,
             'subjects' => $subjects,
-            'plan' => $plan
+            'plan' => $plan,
+            'selected' => $studentgroup->getName()
         ]);
     }
 }

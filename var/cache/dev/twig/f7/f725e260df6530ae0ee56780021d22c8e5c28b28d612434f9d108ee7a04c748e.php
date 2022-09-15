@@ -65,7 +65,7 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Przedmioty";
+        echo "Oceny";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -89,8 +89,8 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main>
 
-<div class=\"container pt-4\">
 
 ";
         // line 13
@@ -129,7 +129,10 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
             // line 30
             echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 30, $this->source); })()), twig_get_attribute($this->env, $this->source, $context["r"], "id", [], "any", false, false, false, 30), [], "any", false, false, false, 30), 'widget', ["attr" => ["class" => "form-control transparent-input"]]);
             echo "</td>
-      <td></td>
+      <td>";
+            // line 31
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["r"], "average", [], "any", false, false, false, 31), "html", null, true);
+            echo "</td>
     </tr>
     ";
             // line 33
@@ -148,7 +151,32 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
         // line 38
         echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 38, $this->source); })()), 'form_end');
         echo "
+</br>
+<div style=\"
+margin-left: 550px;\">
+<a type=\"button\" class=\"btn btn-primary btn-lg\">OCENY</a>
+<a type=\"button\" href=\"/subject/";
+        // line 43
+        echo twig_escape_filter($this->env, (isset($context["id"]) || array_key_exists("id", $context) ? $context["id"] : (function () { throw new RuntimeError('Variable "id" does not exist.', 43, $this->source); })()), "html", null, true);
+        echo "/at/";
+        echo twig_escape_filter($this->env, (isset($context["sid"]) || array_key_exists("sid", $context) ? $context["sid"] : (function () { throw new RuntimeError('Variable "sid" does not exist.', 43, $this->source); })()), "html", null, true);
+        echo "\" class=\"btn btn-outline-primary btn-lg\">OBECNOŚĆ</a>
+<a type=\"button\" href=\"/subject/";
+        // line 44
+        echo twig_escape_filter($this->env, (isset($context["id"]) || array_key_exists("id", $context) ? $context["id"] : (function () { throw new RuntimeError('Variable "id" does not exist.', 44, $this->source); })()), "html", null, true);
+        echo "/nt/";
+        echo twig_escape_filter($this->env, (isset($context["sid"]) || array_key_exists("sid", $context) ? $context["sid"] : (function () { throw new RuntimeError('Variable "sid" does not exist.', 44, $this->source); })()), "html", null, true);
+        echo "\" class=\"btn btn-outline-primary btn-lg\">UWAGI</a>
+<a type=\"button\" href=\"/subject/";
+        // line 45
+        echo twig_escape_filter($this->env, (isset($context["id"]) || array_key_exists("id", $context) ? $context["id"] : (function () { throw new RuntimeError('Variable "id" does not exist.', 45, $this->source); })()), "html", null, true);
+        echo "/et/";
+        echo twig_escape_filter($this->env, (isset($context["sid"]) || array_key_exists("sid", $context) ? $context["sid"] : (function () { throw new RuntimeError('Variable "sid" does not exist.', 45, $this->source); })()), "html", null, true);
+        echo "\" class=\"btn btn-outline-primary btn-lg\">WYDARZENIA</a>
 </div>
+</div>
+
+</main>
 <style>
     input.transparent-input{
        background-color:rgba(0,0,0,0) !important;
@@ -181,22 +209,22 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
 
     public function getDebugInfo()
     {
-        return array (  149 => 38,  144 => 35,  138 => 34,  136 => 33,  130 => 30,  126 => 29,  122 => 28,  119 => 27,  114 => 26,  112 => 25,  97 => 13,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  172 => 45,  166 => 44,  160 => 43,  152 => 38,  147 => 35,  141 => 34,  139 => 33,  134 => 31,  130 => 30,  126 => 29,  122 => 28,  119 => 27,  114 => 26,  112 => 25,  97 => 13,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'panel.html.twig' %}
 
-{% block title %}Przedmioty{% endblock %}
+{% block title %}Oceny{% endblock %}
 
 {% block body %}
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main>
 
-<div class=\"container pt-4\">
 
 {{ form_start(form) }}
 
@@ -216,7 +244,7 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
       <th scope=\"row\">{{ h }}</th>
       <td>{{ form_label(attribute(form, r.id)) }}</td>
       <td style=\"width: 72%;\">{{ form_widget(attribute(form, r.id), {'attr': {'class': 'form-control transparent-input'}}) }}</td>
-      <td></td>
+      <td>{{r.average}}</td>
     </tr>
     {% set h = h+1 %}
     {% endfor%}
@@ -224,7 +252,17 @@ class __TwigTemplate_c1f648cb51ebd7f1c7f4358fde9a6fb18ba73ea8d138d0f6253b0d88686
 </table>
 
 {{ form_end(form) }}
+</br>
+<div style=\"
+margin-left: 550px;\">
+<a type=\"button\" class=\"btn btn-primary btn-lg\">OCENY</a>
+<a type=\"button\" href=\"/subject/{{id}}/at/{{sid}}\" class=\"btn btn-outline-primary btn-lg\">OBECNOŚĆ</a>
+<a type=\"button\" href=\"/subject/{{id}}/nt/{{sid}}\" class=\"btn btn-outline-primary btn-lg\">UWAGI</a>
+<a type=\"button\" href=\"/subject/{{id}}/et/{{sid}}\" class=\"btn btn-outline-primary btn-lg\">WYDARZENIA</a>
 </div>
+</div>
+
+</main>
 <style>
     input.transparent-input{
        background-color:rgba(0,0,0,0) !important;

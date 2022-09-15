@@ -26,8 +26,7 @@ class StudentGroupCrudController extends AbstractCrudController
     {
         return [
             TextField::new('name', 'Nazwa'),
-            AssociationField::new('User', 'Użytkownik')
-            
+            AssociationField::new('User', 'Użytkownik') 
         ];
     }
     

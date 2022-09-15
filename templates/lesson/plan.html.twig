@@ -8,12 +8,14 @@
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-<main style="margin-top: 58px">
-<div class="container pt-4">
+<main style="margin-left: 10px;">
+
 <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"aria-label=".form-select-lg example" name="ice-cream">
-    <option value="">Wybierz klasę  …</option>
+    <option value="">{{ selected }}</option>
     {% for element in group %}
+    {% if element.name != selected %}
     <option value="{{element.id}}">{{element.name}}</option>
+    {% endif %}
     {% endfor %} 
   </select>
 
@@ -305,7 +307,7 @@
 </form>
 </br>
 </br>
-</div>
+
 </main>
 <script>
 const selectElement = document.querySelector('select[name="ice-cream"]');

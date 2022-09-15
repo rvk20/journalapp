@@ -89,8 +89,8 @@ class __TwigTemplate_df4fade32d2fcdbdd906710bd1dbf9a76916ad155e081886ae20b61fcaf
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 
-<div class=\"container pt-4\">
 
 <div class=\"container\">
     <div class=\"row\">
@@ -134,7 +134,8 @@ class __TwigTemplate_df4fade32d2fcdbdd906710bd1dbf9a76916ad155e081886ae20b61fcaf
     </div>
 </div>
 
-</div>
+
+</main>
 
 ";
         
@@ -171,8 +172,8 @@ class __TwigTemplate_df4fade32d2fcdbdd906710bd1dbf9a76916ad155e081886ae20b61fcaf
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 
-<div class=\"container pt-4\">
 
 <div class=\"container\">
     <div class=\"row\">
@@ -204,7 +205,8 @@ class __TwigTemplate_df4fade32d2fcdbdd906710bd1dbf9a76916ad155e081886ae20b61fcaf
     </div>
 </div>
 
-</div>
+
+</main>
 
 {% endblock %}
 ", "password/index.html.twig", "/sfprojects/jobeet/japp/templates/password/index.html.twig");

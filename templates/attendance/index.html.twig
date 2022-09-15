@@ -1,0 +1,36 @@
+{% extends 'panel.html.twig' %}
+
+{% block title %}Obecność{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<main>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Data</th>
+      <th scope="col">Przedmiot</th>
+      <th scope="col">Obecność</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for a in attendance %}
+    <tr>
+      <th scope="row">{{ a.date|date('Y-m-d') }}</th>
+      <td>{{ a.subject }}</td>
+      {% if a.mark == 1 %}
+      <td style="width: 72%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X</td>
+      {% endif %}
+      {% if a.mark == 0 %}
+      <td style="width: 72%;"></td>
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</main>
+{% endblock %}

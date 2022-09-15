@@ -85,23 +85,20 @@ class __TwigTemplate_ef51e2578ec0a906dfb335a72f4f8587f4169d5e8e8b06038ef23eafd19
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 8
-        echo "<main style=\"margin-top: 58px\">
+        echo "<main style=\"margin-left: 58px\">
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-<div class=\"container pt-4\">
-<img src=\"picture1.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-<img src=\"picture2.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-<img src=\"picture4.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-<img src=\"picture3.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-</br>
-</br>
-</br>
-<p class=\"fs-3\">Eduon jest dziennikiem elektroniczym, został stworzony, aby wspomóc nauczycieli w ich pracy.</p>
-<p class=\"fs-3\">Aby skorzystać z jego funkcjonalności, użyj menu z lewej strony.</p>
 
-</div>
+
+</br>
+</br>
+</br>
+<p class=\"fs-3\">  Eduon jest dziennikiem elektroniczym, został stworzony, aby wspomóc nauczycieli w ich pracy.</p>
+<p class=\"fs-3\">  Aby skorzystać z jego funkcjonalności, użyj menu z lewej strony.</p>
+
+
 </main>
 ";
         
@@ -136,23 +133,20 @@ class __TwigTemplate_ef51e2578ec0a906dfb335a72f4f8587f4169d5e8e8b06038ef23eafd19
 {% block title %}Strona główna{% endblock %}
 
 {% block body %}
-<main style=\"margin-top: 58px\">
+<main style=\"margin-left: 58px\">
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-<div class=\"container pt-4\">
-<img src=\"picture1.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-<img src=\"picture2.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-<img src=\"picture4.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-<img src=\"picture3.png\" width=\"150\" height=\"150\" class=\"img-thumbnail\" alt=\"...\">
-</br>
-</br>
-</br>
-<p class=\"fs-3\">Eduon jest dziennikiem elektroniczym, został stworzony, aby wspomóc nauczycieli w ich pracy.</p>
-<p class=\"fs-3\">Aby skorzystać z jego funkcjonalności, użyj menu z lewej strony.</p>
 
-</div>
+
+</br>
+</br>
+</br>
+<p class=\"fs-3\">  Eduon jest dziennikiem elektroniczym, został stworzony, aby wspomóc nauczycieli w ich pracy.</p>
+<p class=\"fs-3\">  Aby skorzystać z jego funkcjonalności, użyj menu z lewej strony.</p>
+
+
 </main>
 {% endblock %}
 ", "index/index.html.twig", "/sfprojects/jobeet/japp/templates/index/index.html.twig");

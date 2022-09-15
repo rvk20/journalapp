@@ -12,11 +12,9 @@ use App\Entity\User;
 class GradeController extends AbstractController
 {
     private $rating;
-    private $user;
 
     public function __construct(ManagerRegistry $doctrine){
         $this->rating = $doctrine->getRepository(Rating::class);
-        $this->user = $doctrine->getRepository(User::class);
     }
 
     /**

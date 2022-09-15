@@ -89,8 +89,8 @@ class __TwigTemplate_800fa75def2efed53a83d15510a26c4efc9fdb2cef5e189c0e8397fe328
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 
-<div class=\"container pt-4\">
 
 <div class=\"container\">
     <div class=\"row\">
@@ -154,8 +154,8 @@ class __TwigTemplate_800fa75def2efed53a83d15510a26c4efc9fdb2cef5e189c0e8397fe328
     </div>
 </div>
 
-</div>
 
+</main>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -191,8 +191,8 @@ class __TwigTemplate_800fa75def2efed53a83d15510a26c4efc9fdb2cef5e189c0e8397fe328
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 
-<div class=\"container pt-4\">
 
 <div class=\"container\">
     <div class=\"row\">
@@ -229,8 +229,8 @@ class __TwigTemplate_800fa75def2efed53a83d15510a26c4efc9fdb2cef5e189c0e8397fe328
     </div>
 </div>
 
-</div>
 
+</main>
 {% endblock %}
 ", "profile/index.html.twig", "/sfprojects/jobeet/japp/templates/profile/index.html.twig");
     }

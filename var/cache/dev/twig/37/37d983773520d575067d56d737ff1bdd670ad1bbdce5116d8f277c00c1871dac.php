@@ -89,8 +89,8 @@ class __TwigTemplate_e85f845d9570141c6cc98a18c254e9d214b6255f7fc4e455c875bf5ea14
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 
-<div class=\"container pt-4\">
 
 <div style=\"display: block;
   width: 30%;
@@ -426,8 +426,8 @@ class __TwigTemplate_e85f845d9570141c6cc98a18c254e9d214b6255f7fc4e455c875bf5ea14
 </table>
   </div>
 
-</div>
 
+</main>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -463,8 +463,8 @@ class __TwigTemplate_e85f845d9570141c6cc98a18c254e9d214b6255f7fc4e455c875bf5ea14
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<main style=\"margin-top: 58px\">
 
-<div class=\"container pt-4\">
 
 <div style=\"display: block;
   width: 30%;
@@ -680,8 +680,8 @@ class __TwigTemplate_e85f845d9570141c6cc98a18c254e9d214b6255f7fc4e455c875bf5ea14
 </table>
   </div>
 
-</div>
 
+</main>
 {% endblock %}
 ", "plan/index.html.twig", "/sfprojects/jobeet/japp/templates/plan/index.html.twig");
     }

@@ -1,0 +1,185 @@
+{% extends 'panel.html.twig' %}
+
+{% block title %}Obecność{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<main>
+
+
+<div style="margin-left: 200px; margin-right: 200px;">
+<button class="btn btn-info btn-lg btn-block" id="myBtn">Sprawdź obecność</button>
+</div>
+</br>
+<div class="table-responsive text-nowrap">
+
+        {% if attendance[0].User is defined %}
+        <table class="table table-striped">
+
+
+          <thead>
+            <tr>
+              <th>Nazwisko i imię</th>
+              
+              {% set user = attendance[0].User %}
+              {% for a in attendance %}
+              {% if a.User == user %}
+              <th style="text-align: center; ">{{ a.date|date('Y-m-d') }}</th>
+              {% endif %}
+              {% endfor %}
+            </tr>
+          </thead>
+  
+          <tbody>
+          {% set i = 0 %}
+          {% for a in students %}
+          <tr>
+              <td>{{ attendance[i].User }}</td>
+          {% for at in attendance %}
+          {% if at.User == attendance[i].User %}
+          {% if at.mark == 1 %}
+              <td style="text-align: center; ">X</td>
+          {% endif %}
+          {% if at.mark == 0 %}
+              <td></td>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+          </tr>
+          {% set i = i + 1 %}
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+</section>
+{% endif %}
+</br>
+<div style="
+margin-left: 550px;">
+<a type="button" href="/subject/{{id}}" class="btn btn-outline-primary btn-lg">OCENY</a>
+<a type="button" href="/subject/{{id}}/at/{{sid}}" class="btn btn-primary btn-lg">OBECNOŚĆ</a>
+<a type="button" href="/subject/{{id}}/nt/{{sid}}" class="btn btn-outline-primary btn-lg">UWAGI</a>
+<a type="button" href="/subject/{{id}}/at/{{sid}}" class="btn btn-outline-primary btn-lg">WYDARZENIA</a>
+</div>
+</main>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+<div class="container pt-4">
+<div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-light" style="max-width: 460px; max-height: 500px;">
+{{ form_start(form1) }}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nazwisko i imię</th>
+      <th scope="col">Obecność</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% set h = 1 %}
+  {% for r in students %}
+    <tr>
+      <th scope="row">{{ h }}</th>
+      <td>{{ form_label(attribute(form1, r.id)) }}</td>
+      <td style="text-align: center;">{{ form_widget(attribute(form1, r.id), {'attr': {'class': 'check-f'}}) }}</td>
+      <td></td>
+    </tr>
+    {% set h = h+1 %}
+    {% endfor%}
+  </tbody>
+</table>
+
+{{ form_end(form1) }}
+</div>
+</div>
+</div>
+
+<style>
+    .check-f {
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+    }
+    input.transparent-input{
+       background-color:rgba(0,0,0,0) !important;
+       border:none !important;
+       box-shadow:none !important;
+    }
+    table th, table td{
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  padding-left: 600px;
+  padding-right: 600px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+{% endblock %}

@@ -25,6 +25,7 @@ class __TwigTemplate_d3300489ce3e9d74ef50420fd05a9001ba487d297fd5d5859625f5fdb60
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
+            'page_title' => [$this, 'block_page_title'],
             'content_title' => [$this, 'block_content_title'],
             'main' => [$this, 'block_main'],
         ];
@@ -55,7 +56,28 @@ class __TwigTemplate_d3300489ce3e9d74ef50420fd05a9001ba487d297fd5d5859625f5fdb60
 
     }
 
-    // line 4
+    // line 3
+    public function block_page_title($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "page_title"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "page_title"));
+
+        // line 4
+        echo "    Panel administratora
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 6
     public function block_content_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -74,7 +96,7 @@ class __TwigTemplate_d3300489ce3e9d74ef50420fd05a9001ba487d297fd5d5859625f5fdb60
 
     }
 
-    // line 6
+    // line 8
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -84,7 +106,7 @@ class __TwigTemplate_d3300489ce3e9d74ef50420fd05a9001ba487d297fd5d5859625f5fdb60
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "main"));
 
-        // line 7
+        // line 9
         echo "    <style>
         p { max-width: 600px; }
     </style>
@@ -121,14 +143,16 @@ class __TwigTemplate_d3300489ce3e9d74ef50420fd05a9001ba487d297fd5d5859625f5fdb60
 
     public function getDebugInfo()
     {
-        return array (  88 => 7,  78 => 6,  59 => 4,  36 => 2,);
+        return array (  110 => 9,  100 => 8,  81 => 6,  70 => 4,  60 => 3,  37 => 2,);
     }
 
     public function getSourceContext()
     {
         return new Source("{# @var ea \\EasyCorp\\Bundle\\EasyAdminBundle\\Context\\AdminContext #}
 {% extends '@EasyAdmin/page/content.html.twig' %}
-
+{% block page_title %}
+    Panel administratora
+{% endblock %}
 {% block content_title 'Witaj w panelu administratora' %}
 
 {% block main %}

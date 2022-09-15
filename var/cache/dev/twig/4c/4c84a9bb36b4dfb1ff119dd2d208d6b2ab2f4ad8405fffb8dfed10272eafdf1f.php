@@ -211,7 +211,7 @@ var myChart = new Chart(ctx, {
       <!-- Brand -->
       <a class=\"navbar-brand\" href=\"/index\">
         <img
-             src=\"logo.png\"
+             src=\"/logo.png\"
              height=\"25\"
              alt=\"\"
              loading=\"lazy\"
@@ -238,7 +238,7 @@ var myChart = new Chart(ctx, {
              aria-expanded=\"false\"
              >
             <img
-                 src=\"avatar.png\"
+                 src=\"/avatar.png\"
                  class=\"rounded-circle\"
                  height=\"22\"
                  alt=\"\"
@@ -548,7 +548,7 @@ var myChart = new Chart(ctx, {
       <!-- Brand -->
       <a class=\"navbar-brand\" href=\"/index\">
         <img
-             src=\"logo.png\"
+             src=\"/logo.png\"
              height=\"25\"
              alt=\"\"
              loading=\"lazy\"
@@ -575,7 +575,7 @@ var myChart = new Chart(ctx, {
              aria-expanded=\"false\"
              >
             <img
-                 src=\"avatar.png\"
+                 src=\"/avatar.png\"
                  class=\"rounded-circle\"
                  height=\"22\"
                  alt=\"\"

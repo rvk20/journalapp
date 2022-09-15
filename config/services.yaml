@@ -6,12 +6,6 @@
 parameters:
 
 services:
-    app.listener.redirect_404_to_homepage:
-        class: AppBundle\EventListener\Redirect404ToHomepageListener
-        arguments:
-            - "@router"
-        tags:
-            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
     app.menu_builder:
         class: App\Menu\Builder
         arguments: ["@knp_menu.factory"]

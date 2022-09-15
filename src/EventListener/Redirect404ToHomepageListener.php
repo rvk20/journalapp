@@ -30,13 +30,8 @@ class Redirect404ToHomepageListener
      */
     public function onKernelException(ExceptionEvent $event)
     {
-        // If not a HttpNotFoundException ignore
-        
-
-        // Create redirect response with url for the home page
         $response = new RedirectResponse($this->router->generate('app_login'));
 
-        // Set the response to be processed
         $event->setResponse($response);
     }
 }

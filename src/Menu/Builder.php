@@ -68,6 +68,27 @@ class Builder
         )
         )->setLinkAttribute('class', 'list-group-item list-group-item-action py-2 ripple');
 
+        $menu->addChild('Attendance', array(
+            'route' => 'app_attendance_student', 
+            'label' => '<i class="far fa-calendar fa-fw me-3"></i><span>Obecność</span>',
+            'extras' => array('safe_label' => true,)
+        )
+        )->setLinkAttribute('class', 'list-group-item list-group-item-action py-2 ripple');
+
+        $menu->addChild('Note', array(
+            'route' => 'app_note_student', 
+            'label' => '<i class="far fa-newspaper fa-fw me-3"></i><span>Uwagi</span>',
+            'extras' => array('safe_label' => true,)
+        )
+        )->setLinkAttribute('class', 'list-group-item list-group-item-action py-2 ripple');
+
+        $menu->addChild('Event', array(
+            'route' => 'app_event_student', 
+            'label' => '<i class="far fa-calendar-check fa-fw me-3"></i><span>Wydarzenia</span>',
+            'extras' => array('safe_label' => true,)
+        )
+        )->setLinkAttribute('class', 'list-group-item list-group-item-action py-2 ripple');
+
         $menu->addChild('Agenda', array(
             'route' => 'app_plan', 
             'label' => '<i class="far fa-calendar-alt fa-fw me-3"></i><span>Rozkład zajęć</span>',
